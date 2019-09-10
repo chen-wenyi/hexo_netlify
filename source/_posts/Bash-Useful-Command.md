@@ -1,7 +1,6 @@
 ---
 title: Useful Bash Command
 date: 2019-06-23 22:20:11
-
 categories:
 - Bash
 tags:
