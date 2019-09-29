@@ -3,8 +3,8 @@ title: Go Http Memo
 date: 2019-09-12 14:40:06
 categories:
 - Go
-- Http
 tags:
+- Http
 ---
 
 # start a tcp server on port 8080
