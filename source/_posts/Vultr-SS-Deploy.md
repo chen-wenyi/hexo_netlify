@@ -14,6 +14,9 @@ git clone -b master https://github.com/flyzy2005/ss-fly
 // init ss service
 ss-fly/ss-fly.sh -i [password] [port]
 
+// enable bbr
+ss-fly/ss-fly.sh -bbr
+
 // alter config
 vim /etc/shadowsocks.json
 
@@ -25,5 +28,8 @@ ssserver -c /etc/shadowsocks.json -d start
 
 // restart ss service
 ssserver -c /etc/shadowsocks.json -d restart
+
+// uninstall ss
+ss-fly/ss-fly.sh -uninstall
 
 ```
